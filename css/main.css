@@ -4,3 +4,31 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    background-color: #1F1969;
+}
+
+.container{
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.main-menu{
+    display: flex;
+    gap: 2em;
+    font-size: 20px;
+}
+
+.menu-item{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+    color: #E6138C;
+}
