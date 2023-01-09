@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://vitgri1.github.io/
+Site published at: https://vitgri1.github.io/04-1-Mars-1/
 
 Design: [Mars](https://img.freepik.com/free-vector/landing-page-template-universe_79603-649.jpg?w=1380&t=st=1673260393~exp=1673260993~hmac=d3bdbf51dd39b59054adcbc54691e47e9442c06da8268c8c44338daa1e832712)
 
