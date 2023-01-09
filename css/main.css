@@ -68,3 +68,14 @@ body{
 .button:hover{
     box-shadow: 1px 1px 3px 0 #fff;
 }
+
+.logo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.logo > span{
+    font-weight: bold;
+}
