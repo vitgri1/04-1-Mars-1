@@ -73,9 +73,17 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
+    display: inline-block;
 }
 
 .logo > span{
     font-weight: bold;
+}
+
+.main-img-right{
+    height: 95vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
