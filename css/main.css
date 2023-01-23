@@ -12,7 +12,7 @@ body{
 }
 
 .container{
-    width: 400px;
+    width: 40%;
     margin-left: 100px;
     margin-top: 50px;
 }
@@ -46,6 +46,7 @@ body{
 
 .description{
     width: 70%;
+    max-width: 400px;
     color: #9799C4;
     margin-bottom: 100px;
     font-size: 16px;
@@ -62,7 +63,6 @@ body{
     border-radius: 2em;
     background-color: #E6138C;
     flex-shrink: 2;
-    margin-bottom: 100px;
 }
 
 .button:hover{
@@ -70,11 +70,13 @@ body{
 }
 
 .logo{
+    position: absolute;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     text-transform: uppercase;
-    margin-bottom: 150px;
+    bottom: 50px;
     display: inline-block;
+
 }
 
 .logo > span{
@@ -82,8 +84,56 @@ body{
 }
 
 .main-img-right{
+    z-index: -1;
     height: 95vh;
+    object-fit: contain;
+    object-position: bottom;
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+@media (max-width: 1300px){
+    .main-img-right{
+        width: 800px;
+    }
+}
+
+@media (max-width: 1100px){
+    .main-img-right{
+        width: 680px;
+    }
+}
+
+@media (max-width: 930px){
+    .main-img-right{
+        width: 630px;
+    }
+    main.container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 630px){
+    .main-img-right{
+        width: 100%;
+    }
+    main.container,
+    .container {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 465px){
+    .heading {
+        font-size:45px;
+    }
+    .main-menu{
+        gap: 1.5em;
+    }
+}
+
+@media (max-width: 420px){
+    .heading {font-size:38px;}
 }
